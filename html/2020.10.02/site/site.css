@@ -1,0 +1,13 @@
+body {
+    background: #26396d;
+}
+h1 {
+    color: lavender;
+    font: 60px "Segoe Script", cursive;
+    text-align: center;
+}
+p {
+    color: rgb(241, 208, 170);
+    font: 20px sans-serif;
+    text-decoration: overline;
+}

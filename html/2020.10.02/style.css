@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* body {
+    border-top: solid;
+} */
+.box {
+    font: 20px sans-serif;
+    background-color: skyblue;
+    width: 300px; /*Ширина*/
+    /* width: 50vh; */
+    /* height: 150px; /*Высота*/
+    /* min-height: 100px; 
+    max-height: 200px; */
+    /* height: 50vh;  */
+    /*overflow: auto; /* visible | hidden | scroll | auto */
+    border-width: 5px;
+    border-color: darkorchid;
+    border-style: solid; /* none | solid | dotted | dashed | double */
+    text-align: justify;
+    line-height: 1;
+    border-right-color: red;
+    /* border-bottom-style: dashed;
+    border-bottom-width: 10px; */
+    border-bottom: 10px dashed;
+    /* border: solid; */
+    /* padding: 20px; /* отступ между граицей и контентом со вех сторон */ 
+    /* padding: 20px 100px 50px 0; /* top -> right -> bottom -> left */
+    /* padding: 20px 50px; /* y -> x */
+    padding: 50px 100px 100px;
+    margin: 50px auto 100px;
+}
+/* .inside {
+    width: 40%;
+    height: 50%;
+    background: #000;
+} */
+/*
+    100vh - 100% видимой области высоты окна браузера (viewport heigt)
+    100vw - 100% видимой области ширины окна браузера (viewport width)
+
+*/
+.menu {
+    width: 510px;
+    background: red;
+    margin: 0 auto;
+    list-style-type: none;
+    font: 30px fantasy;
+    color: cornsilk;
+}
+a {
+    color: inherit; /* унаследовать цвет от родителя */
+    text-decoration: none;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-size: 0;
+        }
+        .column {
+            width: 310px; /* 2 квадратика по ширине + отступ */
+            height: 630px; /* 4 квадратика по высоте + 3 отступа */
+            display: inline-block;
+            vertical-align: top;
+        }
+        .mini {
+            width: 150px;
+            height: 150px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .midi {
+            width: 310px;
+            height: 150px;
+        }
+        .maxi {
+            width: 310px;
+            height: 310px;
+        }
+        .mr10 {
+            margin-right: 10px;
+        }
+        .mb10 {
+            margin-bottom: 10px;
+        }
+        .group {
+            margin-right: 50px;
+            display: inline-block;
+        }
+        .column * {
+            background: rgb(87, 37, 223);
+        }
+    </style>
+</head>
+<body>
+    <div class="group">
+        <div class="column mr10">
+            <div class="mini mr10 mb10"></div>
+            <div class="mini mb10"></div>
+            <div class="midi mb10"></div>
+            <div class="midi mb10"></div>
+            <div class="mini mr10"></div>
+        </div>
+        <div class="column mr10">
+            <div class="mini mr10 mb10"></div>
+            <div class="mini mb10"></div>
+            <div class="mini mr10 mb10"></div>
+            <div class="mini mb10"></div>
+            <div class="mini mr10 mb10"></div>
+            <div class="mini mb10"></div>
+            <div class="midi"></div>
+        </div>
+        <div class="column mr10">
+            <div class="maxi mb10"></div>
+            <div class="midi mb10"></div>
+            <div class="mini mr10"></div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="midi mb10"></div>
+        <div class="midi mb10"></div>
+        <div class="mini mr10 mb10"></div>
+        <div class="mini mb10"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        Форма для заказа книги
+        1) Наименование книги (Название)
+        2) Автор
+        3) Год издания книги
+        4) Количество страниц
+
+        Категори (одна на книгу)
+        - JavaScript/html/css
+        - Java
+        - PHP
+        - Python
+        - C++
+        
+        Дополнительные параметры
+        - Цветные картинки
+        - Детский формат
+        - Начальный уровнь
+        - Для продвинутых
+        - Жесткий переплет
+     -->
+     <h1>Заказать любимую книгу</h1>
+     <form action="" method="get">
+         Выберите магазин
+         <select name="city">
+            <option>Биробиджан</option>
+            <option>Барнаул</option>
+            <option selected>Уфа</option>
+         </select>
+         <br>
+         Название книги <input type="text" name="book">
+         <br>
+         Автор книги <input type="text" name="author">
+         <br>
+         Год издания <input type="number" min="1940" max="2020" value="2019" step="1" name="publick_year">
+         <br>
+         Количество страниц <input type="number" name="pages">
+         <fieldset>
+            <legend>Категория книги</legend>
+            <input type="radio" checked name="category" value="web"> JavaScript/html/css
+            <br>
+            <input type="radio" name="category" value="Java"> Java
+            <br>
+            <input type="radio" name="category" value="PHP"> PHP
+            <br>
+            <input type="radio" name="category" value="Python"> Python
+            <br>
+            <input type="radio" name="category" value="C++"> C++
+            <br>
+            <input type="radio" name="category" value="Assembler"> Assembler
+         </fieldset>
+         <fieldset>
+            <legend>Дополнительные характеристики</legend>
+            <input type="checkbox" name="other1" value="Цветные картинки"> Цветные картинки
+            <br>
+            <input type="checkbox" name="other2" checked value="Детский формат"> Детский формат
+            <br>
+            <input type="checkbox" name="other3" checked value="Начальный уровнь"> Начальный уровнь
+            <br>
+            <input type="checkbox" name="other4" checked value="Для продвинутых"> Для продвинутых
+            <br>
+            <input type="checkbox" name="other5" value=" Жесткий переплет"> Жесткий переплет
+        </fieldset>
+         <br>
+         <textarea name="comment" cols="20" rows="5" placeholder="Напишите ваш комментарий к заказу"></textarea>
+         <br>
+         <input type="submit" value="Заказать книгу">
+     </form>
+</body>
+</html>

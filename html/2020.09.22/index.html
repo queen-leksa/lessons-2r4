@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <style>
+        * {
+            color: orangered;
+        }
+        h1 {color: #0088ff;} /*#0088ff => #08f*/
+        p {
+            color: purple; /* цвет текста */
+            text-indent: 30px; /* Красная строка */
+        }
+        h2 {
+            color: #0a5090;
+        }
+        
+        #special {
+            width: 500px;
+        }
+        .bg {
+            background-color: #ff0;
+        }
+        .bold {
+            font-weight: bold;
+            color: coral;
+        }
+        .txt {
+            color: forestgreen;
+        }
+        
+        span {
+            color: rgb(95, 202, 166);
+        }
+
+        /*
+            Сначала пишите селектор *
+            Потом все стили для тегов
+            Потом все стили для классов
+            Потом все стили для id (А ЛУЧШЕ ЗАБЫТЬ ПРО CSS c ID)
+        */
+    </style>
+</head>
+<body>
+    <!-- h1>lorem3^p>lorem50+span>lorem5^lorem50^h2>lorem10^p*2>lorem65 -->
+    <!-- > - вложенное внутрь -->
+    <!-- + - братские (соседние) теги -->
+    <!-- * - умножение -->
+    <!-- ^ - выйти на уровень вверх -->
+    <!-- (h1>lorem3)+p>lorem50 -->
+    <!-- h1>lorem3^p>lorem50 -->
+    <h1 class="bg">Lorem, ipsum dolor.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus delectus explicabo, exercitationem perferendis esse temporibus quas sunt quae magnam ex id ut, numquam blanditiis, eos molestiae! Sint reprehenderit eaque aspernatur nulla, a, consectetur est veniam beatae nostrum, error saepe hic provident. Officiis hic eius perferendis esse provident id, iste possimus. <span class="bold txt">Lorem ipsum dolor sit amet.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam voluptatum ipsa? Tempora, sit sequi corporis est numquam exercitationem ab assumenda ducimus aliquam ut totam dolorem in neque ea quibusdam, dicta temporibus atque. Adipisci laborum earum soluta accusantium id ducimus, nihil, harum voluptas aliquam, saepe dicta et sapiente deserunt! Possimus?</p>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, iusto?</h2>
+    <p id="special">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum inventore repudiandae nam eius quo quam commodi voluptatem sit eos expedita. Accusantium inventore laborum eaque natus quis illum iure cupiditate facilis perferendis atque dolorem facere saepe quam, distinctio repellat sequi neque, officia aspernatur alias. Temporibus et asperiores ut veritatis, vero, aperiam architecto quam voluptates tenetur quis repellendus, ipsa incidunt commodi consectetur assumenda error distinctio laborum dolor?</p>
+    <p class="txt bg">Mollitia, culpa quisquam minus cum quos quis at molestias? Est fugit quas iste a deserunt ad laboriosam quasi qui aut, eveniet commodi molestiae perferendis iusto, atque rem recusandae facilis deleniti voluptatum. Officiis quidem dolor fugit odio. Molestias exercitationem sunt nisi recusandae omnis obcaecati vero unde necessitatibus inventore aperiam aliquam perspiciatis et vitae voluptas, atque minus, soluta praesentium! Iste, velit enim minima facilis nihil doloremque ab.</p>
+</body>
+</html>
