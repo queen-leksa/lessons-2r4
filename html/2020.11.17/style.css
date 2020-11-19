@@ -1,0 +1,21 @@
+
+.cards-container {
+    width: 800px;
+    margin: auto;
+    background: #222;
+    color: #fff;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap; /* no-wrap | wrap | wrap-reverse*/
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.card {
+    width: 15%;
+    border: 1px solid;
+    /* box-sizing: border-box; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
